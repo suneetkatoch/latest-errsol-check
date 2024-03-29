@@ -20,7 +20,7 @@ mongoose.connect("mongodb+srv://suneetkatoch:Suneet123@cluster0.cskfz.mongodb.ne
 
 
 
-const Schema= new mongoose.Schema({
+const Schema= new mon.Schema({
     name:String,
     email:String,
     password:String
