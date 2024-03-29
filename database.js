@@ -21,7 +21,7 @@ mongoose.connect("mongodb+srv://suneetkatoch:Suneet123@cluster0.cskfz.mongodb.ne
 
 
 const Schema= new mongoose.Schema({
-    name:String,
+    // name:String,
     email:String,
     password:String
 
