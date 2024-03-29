@@ -1,10 +1,10 @@
-// const errsole = require('@errsole/node');
-// errsole.initialize({
-//   framework: 'express',
-//   token: 'ead09fc4-39c3-44c6-b140-e08f61fd9c55',
-//   exitOnException: true,
-//   evalExpression: true
-// });
+const errsole = require('@errsole/node');
+errsole.initialize({
+  framework: 'express',
+  token: 'ead09fc4-39c3-44c6-b140-e08f61fd9c55',
+  exitOnException: true,
+  evalExpression: true
+});
 const express =require("express")
 const app =express();
 const User = require("./database");
