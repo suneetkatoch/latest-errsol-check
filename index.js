@@ -55,7 +55,7 @@ app.post("/update/:id",async(req,res)=>{
     res.redirect("/");
 })
 
-app.get("/delete/:id",async(req,res)=>{
+app.get("/delete",async(req,res)=>{
     const {id} =req.params;
 const deleteuser =await User.findByIdAndDelete({_id:id});
 res.redirect("/");
